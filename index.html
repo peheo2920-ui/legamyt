@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>LTHONGGAM_YT - Profile</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(to bottom,#f8a9bf,#f7b6ca,#ffc8d8);
+    min-height:100vh;
+    color:white;
+    overflow-x:hidden;
+}
+
+.container{
+    width:100%;
+    max-width:430px;
+    margin:auto;
+    padding:22px 18px 120px;
+}
+
+/* HEADER */
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:28px;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    letter-spacing:1px;
+    text-shadow:0 3px 10px rgba(255,255,255,0.4);
+}
+
+.menu{
+    width:52px;
+    height:52px;
+    border-radius:20px;
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(10px);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 8px 20px rgba(255,105,180,0.25);
+    cursor:pointer;
+}
+
+.menu span{
+    font-size:28px;
+    color:white;
+}
+
+/* BADGE */
+
+.badge{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    padding:12px 22px;
+    border-radius:50px;
+    background:rgba(255,255,255,0.2);
+    backdrop-filter:blur(10px);
+    box-shadow:0 8px 20px rgba(255,105,180,0.15);
+    margin-bottom:35px;
+}
+
+.dot{
+    width:18px;
+    height:18px;
+    background:#ff6fa7;
+    border-radius:50%;
+}
+
+.badge span{
+    font-size:17px;
+    font-weight:500;
+}
+
+/* TITLE */
+
+.main-title{
+    font-size:25px;
+    line-height:1.5;
+    font-weight:800;
+    text-align:center;
+    margin-bottom:32px;
+    text-shadow:0 4px 10px rgba(255,255,255,0.35);
+}
+
+.main-title .light{
+    color:#ffdbe7;
+}
+
+.main-title .name{
+    display:block;
+    margin-top:10px;
+    font-size:45px;
+    color:white;
+}
+
+/* CARD */
+
+.profile-card{
+    background:rgba(255,255,255,0.16);
+    backdrop-filter:blur(12px);
+    border-radius:35px;
+    padding:28px 24px;
+    box-shadow:
+    0 10px 30px rgba(255,105,180,0.22),
+    inset 0 1px 1px rgba(255,255,255,0.2);
+}
+
+.profile-card p{
+    font-size:18px;
+    line-height:1.9;
+    margin-bottom:28px;
+    color:#fff8fb;
+    font-weight:400;
+}
+
+/* BUTTON */
+
+.contact-btn{
+    position:fixed;
+    bottom:22px;
+    left:50%;
+    transform:translateX(-50%);
+    width:90%;
+    max-width:390px;
+    height:68px;
+    border:none;
+    border-radius:28px;
+    background:white;
+    color:#f26a98;
+    font-size:24px;
+    font-weight:700;
+    box-shadow:0 12px 30px rgba(255,105,180,0.28);
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.contact-btn:hover{
+    transform:translateX(-50%) scale(1.03);
+}
+
+.icon{
+    margin-right:10px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:480px){
+
+    .main-title{
+        font-size:21px;
+    }
+
+    .main-title .name{
+        font-size:38px;
+    }
+
+    .profile-card p{font-size:16px;
+    }
+
+    .contact-btn{
+        font-size:21px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="header">
+        <div class="logo">LTHONGGAM_YT</div>
+
+        <div class="menu">
+            <span>☰</span>
+        </div>
+    </div>
+
+    <!-- BADGE -->
+    <div class="badge">
+        <div class="dot"></div>
+        <span>Welcome to my website.</span>
+    </div>
+
+    <!-- TITLE -->
+    <div class="main-title">
+        Hi <span class="light">EVERYONE</span>, MY FULL NAME
+        <span class="name">♥ LÊ THỊ HỒNG GẤM ♥</span>
+    </div>
+
+    <!-- PROFILE -->
+    <div class="profile-card">
+
+        <p>
+            Là 1 học sinh lớp 12 đam mê Kinh tế, Tiếng Anh, Ngữ văn và yêu thích Công nghệ thông tin. Luôn tìm tòi những phương pháp học thông minh, hiện đại và ứng dụng công nghệ để phát triển bản thân mỗi ngày.
+        </p>
+
+        <p>
+            Đây là một nền tảng học tập cá nhân do mình xây dựng — nơi bạn có thể trò chuyện trực tiếp, nhận tài liệu phù hợp và được hỗ trợ tìm ra cách học hiệu quả hơn cho riêng mình.
+        </p>
+
+        <p>
+            Mục tiêu của mình là giúp việc học Kinh tế, Tiếng Anh, Ngữ văn và các kỹ năng khác trở nên dễ tiếp cận, thông minh và cá nhân hóa hơn với mỗi người. Ngoài ra, nền tảng cũng hỗ trợ tài liệu cho nhiều môn học khác, ôn thi và chia sẻ phương pháp học tập hiệu quả.
+        </p>
+
+        <p>
+            Mình cũng mong muốn tìm kiếm những người cùng đam mê học tập, phát triển bản thân và sẵn sàng đồng hành cùng nhau trên hành trình trưởng thành.
+        </p>
+
+        <p style="margin-bottom:0;">
+            Không chỉ là học kiến thức, đây còn là nơi để kết nối, khám phá tư duy mới và xây dựng phiên bản tốt hơn của chính mình mỗi ngày.
+        </p>
+
+    </div>
+
+</div>
+
+<!-- BUTTON -->
+
+<button class="contact-btn">
+    <span class="icon">✉</span>
+    Liên hệ ngay
+</button>
+
+</body>
+</html>
